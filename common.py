@@ -1,10 +1,10 @@
 last=int(input())
-b=[]
+f=[]
 for i in range(0,last):
     input1=input()
-    b.append(input1)
+    f.append(input1)
 lai=[]
-for i in zip(*b):
+for i in zip(*f):
     if(i.count(i[0])==len(i)):
         lai.append(i[0])
             
